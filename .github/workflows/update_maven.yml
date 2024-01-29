@@ -43,4 +43,4 @@ jobs:
         context: .
         file: Dockerfile.gha
         push: true
-        tags: rg.frpar.scw.cloud/polytech2024/steven/back:v1
+        tags: rg.fr-par.scw.cloud/polytech2024/steven/back:v1
