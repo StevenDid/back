@@ -1,0 +1,20 @@
+spring:
+  #datasource:
+   # url: jdbc:postgresql://host.docker.internal:2345/myDatabase
+    #username: databaseUser
+    #password: databasePassword
+  h2:
+    console:
+      enabled: true
+  jpa:
+    defer-datasource-initialization: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+s3:
+  buckets:
+    illustrations: examillustrations
+    photos: examphotos
+  hostname: http://127.0.0.1:9000
+  access_key: VrxI8xqvw4veHiJmvlx1
+  secret_key: znFFrTYNoEAdCQDShvDjE47hPJikdz2zzAyyWpNk
